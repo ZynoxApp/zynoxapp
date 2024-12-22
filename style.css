@@ -132,7 +132,7 @@ h1 {
 .tags {
   width: 100%;
   height: 125px;
-  background-color: rgba(115, 115, 115, 0.15);
+  background-color: rgb(1, 1, 1);
   margin: 75px 0;
   display: flex;
   gap: 30px;
@@ -270,6 +270,18 @@ footer {
   width: 40px;
 }
 
+.product-1 p {
+  font-size: 90px;
+  letter-spacing: 2px;
+}
+
+.product-1-a {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1656px) {
   .header-desc {
     width: 60%;
@@ -330,6 +342,10 @@ footer {
   .product-3 {
     width: 300px;
     height: 300px;
+  }
+
+  .product-1 p {
+    font-size: 65px;
   }
 }
 
@@ -408,6 +424,10 @@ footer {
 
   .products {
     display: block;
+  }
+
+  .product-1 p {
+    font-size: 80px;
   }
 }
 
@@ -557,6 +577,10 @@ footer {
     height: 220px;
     margin-bottom: 25px;
   }
+
+  .product-1 p {
+    font-size: 50px;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -594,5 +618,10 @@ footer {
   .product-3 {
     width: 200px;
     height: 200px;
+    border-radius: 20px;
+  }
+
+  .product-1 p {
+    font-size: 45px;
   }
 }
