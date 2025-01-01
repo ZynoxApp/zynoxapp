@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter", serif;
+}
+
+.products-header {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.products-paragraph {
+  text-align: center;
+  margin-top: 5px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  /* grid-template-rows: repeat(1, 300px); */
+  gap: 50px;
+  justify-self: center;
+  margin-top: 75px;
+}
+
+.product {
+  width: 250px;
+  height: 300px;
+  border: 1px solid #278043;
+}
