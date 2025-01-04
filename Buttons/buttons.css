@@ -30,3 +30,15 @@ main {
   height: 300px;
   border: 1px solid #278043;
 }
+
+@media (max-width: 900px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 575px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
