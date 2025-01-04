@@ -188,6 +188,13 @@ footer {
 }
 
 @media (max-width: 900px) {
+  .header {
+    background: url(ZYNOX\ Mobile\ Background\ BLUR.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
   .products {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -198,9 +205,20 @@ footer {
     width: 30rem;
     height: 35rem;
   }
+
+  .about-p {
+    width: 80%;
+  }
 }
 
 @media (max-width: 575px) {
+  .header {
+    background: url(ZYNOX\ Mobile\ Background\ BLUR.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   h1 {
     font-size: 3rem;
   }
@@ -217,9 +235,11 @@ footer {
 
 @media (max-width: 400px) {
   .header {
+    background: url(ZYNOX\ Mobile\ Background\ BLUR.png);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80rem;
+    height: 65rem;
   }
 
   h1 {
